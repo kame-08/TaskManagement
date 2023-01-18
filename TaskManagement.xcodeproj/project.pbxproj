@@ -11,6 +11,17 @@
 		2AEA0BCE29763C0C006B72EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BCD29763C0C006B72EF /* ContentView.swift */; };
 		2AEA0BD029763C0C006B72EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA0BCF29763C0C006B72EF /* Assets.xcassets */; };
 		2AEA0BD429763C0C006B72EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA0BD329763C0C006B72EF /* Preview Assets.xcassets */; };
+		2AEA0BDD29763CA7006B72EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BDC29763CA7006B72EF /* HomeView.swift */; };
+		2AEA0BDF29763D83006B72EF /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BDE29763D83006B72EF /* Page.swift */; };
+		2AEA0BE1297645D1006B72EF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BE0297645D1006B72EF /* CalendarView.swift */; };
+		2AEA0BE32976473E006B72EF /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BE22976473E006B72EF /* ReminderView.swift */; };
+		2AEA0BE529765022006B72EF /* CreateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BE429765022006B72EF /* CreateEventView.swift */; };
+		2AEA0BE729765299006B72EF /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BE629765299006B72EF /* EventManager.swift */; };
+		2AEA0BE9297657B9006B72EF /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BE8297657B9006B72EF /* ReminderManager.swift */; };
+		2AEA0BEB29765997006B72EF /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BEA29765997006B72EF /* ClockView.swift */; };
+		2AEA0BED29765A5F006B72EF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BEC29765A5F006B72EF /* Event.swift */; };
+		2AEA0BF129765C23006B72EF /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BF029765C23006B72EF /* MemoView.swift */; };
+		2AEA0BF3297664AA006B72EF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA0BF2297664AA006B72EF /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		2AEA0BCF29763C0C006B72EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AEA0BD129763C0C006B72EF /* TaskManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaskManagement.entitlements; sourceTree = "<group>"; };
 		2AEA0BD329763C0C006B72EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AEA0BDC29763CA7006B72EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2AEA0BDE29763D83006B72EF /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2AEA0BE0297645D1006B72EF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		2AEA0BE22976473E006B72EF /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		2AEA0BE429765022006B72EF /* CreateEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventView.swift; sourceTree = "<group>"; };
+		2AEA0BE629765299006B72EF /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		2AEA0BE8297657B9006B72EF /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		2AEA0BEA29765997006B72EF /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		2AEA0BEC29765A5F006B72EF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2AEA0BF029765C23006B72EF /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		2AEA0BF2297664AA006B72EF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 			children = (
 				2AEA0BCB29763C0C006B72EF /* TaskManagementApp.swift */,
 				2AEA0BCD29763C0C006B72EF /* ContentView.swift */,
+				2AEA0BDA29763C1B006B72EF /* View */,
+				2AEA0BDB29763C24006B72EF /* Model */,
 				2AEA0BCF29763C0C006B72EF /* Assets.xcassets */,
 				2AEA0BD129763C0C006B72EF /* TaskManagement.entitlements */,
 				2AEA0BD229763C0C006B72EF /* Preview Content */,
@@ -67,6 +91,31 @@
 				2AEA0BD329763C0C006B72EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AEA0BDA29763C1B006B72EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA0BDC29763CA7006B72EF /* HomeView.swift */,
+				2AEA0BEA29765997006B72EF /* ClockView.swift */,
+				2AEA0BE0297645D1006B72EF /* CalendarView.swift */,
+				2AEA0BE22976473E006B72EF /* ReminderView.swift */,
+				2AEA0BF029765C23006B72EF /* MemoView.swift */,
+				2AEA0BF2297664AA006B72EF /* SettingsView.swift */,
+				2AEA0BE429765022006B72EF /* CreateEventView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AEA0BDB29763C24006B72EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA0BDE29763D83006B72EF /* Page.swift */,
+				2AEA0BE629765299006B72EF /* EventManager.swift */,
+				2AEA0BE8297657B9006B72EF /* ReminderManager.swift */,
+				2AEA0BEC29765A5F006B72EF /* Event.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEA0BE9297657B9006B72EF /* ReminderManager.swift in Sources */,
+				2AEA0BED29765A5F006B72EF /* Event.swift in Sources */,
+				2AEA0BEB29765997006B72EF /* ClockView.swift in Sources */,
+				2AEA0BE1297645D1006B72EF /* CalendarView.swift in Sources */,
+				2AEA0BDD29763CA7006B72EF /* HomeView.swift in Sources */,
+				2AEA0BE729765299006B72EF /* EventManager.swift in Sources */,
+				2AEA0BE32976473E006B72EF /* ReminderView.swift in Sources */,
 				2AEA0BCE29763C0C006B72EF /* ContentView.swift in Sources */,
+				2AEA0BDF29763D83006B72EF /* Page.swift in Sources */,
 				2AEA0BCC29763C0C006B72EF /* TaskManagementApp.swift in Sources */,
+				2AEA0BF129765C23006B72EF /* MemoView.swift in Sources */,
+				2AEA0BE529765022006B72EF /* CreateEventView.swift in Sources */,
+				2AEA0BF3297664AA006B72EF /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +329,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーは、イベントの表示に使用されます。";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "リマインダーは、タスクの表示に使用されます。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,7 +349,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ryo-dev.TaskManagement";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,6 +371,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーは、イベントの表示に使用されます。";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "リマインダーは、タスクの表示に使用されます。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -325,7 +391,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ryo-dev.TaskManagement";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
